@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: linear-gradient(to right rgba(128,128,128), rgba(0,0,0)); */
+    /* background: rgb(2,0,36); */
+    background-color: #212121;
+    position:relative;
+}
+#menu-bar{
+    margin-top: -15px;
+    position: absolute;
+    width: 15%;
+    height: 100vh;
+    background-color: rgb(48, 47, 47);
+}
+#logo{
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#greeting{
+    margin-top: 18px;
+    color:white;
+    margin-left: 16%;
+}
+#top-arrow{
+    height: 28px;
+}
+#profile-img{
+    height: 40px;
+    border-radius: 50%;
+}
+#down-arrow{
+    height: 25px;
+    margin-left: 5px;
+}
+#profile{
+    margin-left: 80%;
+    border: 2px solid rgb(0, 0, 0);
+    display: inline-flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: black;
+}
+#profile-name{
+    color: white;
+    margin: 5px;
+}
+#arrow-profile{
+    position:absolute;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 16%;
+}
+#top-container{
+    position:relative;
+    margin-top: 15px;
+}
+.card-one{
+    position: relative;
+    display: inline-block;
+    height: 90px;
+    width:230px;
+    /* border: 2px solid red; */
+    border-radius: 7px;
+    margin: 15px;
+}
+#fav-list{
+    /* border: 2px solid yellow; */
+    margin-left: 15%;
+}
+#images{
+    position: absolute;
+    border-right: 150px solid #303030;
+    /* border: 2px solid orange; */
+    border-radius: 7px;
+    height:80px;
+}
+#heart{
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    /* border: 2px solid green; */
+    margin-left: 25px;
+}
+#sec-heading{
+    color: white;
+    margin-left: 16%;
+}
+#fav-list1{
+    position: absolute;
+    color: white;
+    margin-top: -24px;
+    margin-left: 90px;
+    font-size: medium;
+}
+#fav-list2{
+    position: absolute;
+    color: white;
+    margin-top: 30px;
+    margin-left: 90px;
+    font-size: medium;
+}
+#fav-list3{
+    position: absolute;
+    color: white;
+    margin-top: 30px;
+    margin-left: 90px;
+    font-size: medium;
+}
+#fav-list4{
+    position: absolute;
+    color: white;
+    margin-top: 30px;
+    margin-left: 90px;
+    font-size: medium;
+}
+#fav-list5{
+    position: absolute;
+    color: white;
+    margin-top: 28px;
+    margin-left: 90px;
+    font-size: 15px;
+}
+
+
+.card-two{
+
+    position:relative;
+    display: inline-block;
+    height: 230px;
+    width:155px;
+    background-color:#242424;
+    /* border: 2px solid red; */
+    border-radius: 7px;
+    margin: 10px;
+}
+#song-list{
+    /* border: 1px solid yellow; */
+    margin-left: 15%;
+}
+.song-img{
+    height: 130px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+}
+#song-content1{
+    position: absolute;
+    color: white;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 17px;
+}
+#song-content2{
+    position: absolute;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+#song-content3{
+    position: absolute;
+    color: white;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 17px;
+}
+#song-content4{
+    position: absolute;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+#song-content5{
+    position: absolute;
+    color: white;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 17px;
+}
+
+#song-content6{
+    position: absolute;
+    color: white;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+#song-play{
+    position:sticky;
+    bottom: 0%;
+    height: 80px;
+    /* border: 2px solid red; */
+    display: flex;
+    background-color: #181818;
+}
+#playing-song{
+    margin-top: 8px;
+    margin-left: 20px;
+    height:55px;
+    width: 55px;
+}
+#txt-1{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 90px;
+    color: white;
+    font-weight: bolder;
+    /* border: 2px solid yellow; */
+}
+#txt-2{
+    position: relative;
+    /* border: 2px solid red; */
+    color: white;
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+#green-heart{
+    height: 25px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+#music-player,#music-play{
+    margin-left: 100px;
+    margin-top: 5px;
+    height: 55px;
+    /* width: 30px; */
+}
+#control-option{
+    height: 25px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
